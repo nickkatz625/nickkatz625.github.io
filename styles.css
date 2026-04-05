@@ -1,1 +1,11 @@
-/* css styles */
+CSS
+/* Futuristic Accents */
+.about-image {
+  border: 2px solid #00d4ff; /* Neon Blue Border */
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.6); /* Glow Effect */
+}
+
+body {
+  font-family: 'Orbitron', sans-serif; /* You can link a futuristic font here */
+  letter-spacing: 1px;
+}/* css styles */

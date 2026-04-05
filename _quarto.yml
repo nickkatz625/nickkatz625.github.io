@@ -1,22 +1,28 @@
 project:
   type: website
   output-dir: docs
-
+  
 website:
-  title: "project"
+  title: "Nick Katz"
   navbar:
+    background: primary
+    search: true
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Projects
+        menu:
+          - href: class-projects.qmd
+            text: "CMSC/STAT 405 Work"
+          - href: external-projects.qmd
+            text: "Baseball Research"
+      - href: about.qmd
+        text: Interests
 
 format:
   html:
-    theme:
-      - cosmo
-      - brand
+    theme: cyborg # The "Futuristic" dark theme
     css: styles.css
     toc: true
-
 
 
