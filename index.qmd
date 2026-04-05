@@ -17,11 +17,9 @@ about:
       text: Email
       href: "mailto:nickkatz575@gmail.com"
 ---
-
 ### Reutrn-To-Throw Rehab Analyst
-
 I am a Biology major and Data Science minor at **Lawrence University**. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push our understanding of the throw. 
 
-By leveraging **R**, **Python**, and **biometric data**, I specialize in optimizing pitching strategies and developing **Return-To-Throw** protocols that prioritize both high-velocity performance and long-term player health. My research uses systems like **Armcare.com**, **driveline PUlSE**, and **FlexProGrip** to target the musclatrure closely related to the UCL, looking to find potent training modalities to use in return-to-throw programming.
+By leveraging ***R***, ***Python***, and ***biometric data***, I specialize in optimizing pitching strategies and developing **Return-To-Throw** protocols that prioritize both high-velocity performance and long-term player health. My research uses systems like **Armcare.com**, **driveline PUlSE**, and **FlexProGrip** to target the musclatrure closely related to the UCL, looking to find potent training modalities to use in return-to-throw programming.
 
 

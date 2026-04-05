@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-  title: "Nick Katz"
+  title: "Katz Performance"
   navbar:
     background: primary
     search: true
@@ -21,7 +21,7 @@ website:
 
 format:
   html:
-    theme: cyborg # The "Futuristic" dark theme
+    theme: cyborg 
     css: styles.css
     toc: true
 
