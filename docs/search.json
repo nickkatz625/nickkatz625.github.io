@@ -7,6 +7,34 @@
     "text": "RTT Specialist | Pitching Analyst"
   },
   {
+    "objectID": "force-plate.html",
+    "href": "force-plate.html",
+    "title": "Force Plate Percentile Analysis",
+    "section": "",
+    "text": "Input and Summary\n\n\n\n\n\nFluid Percentile Plots"
+  },
+  {
+    "objectID": "force-plate.html#project-overview",
+    "href": "force-plate.html#project-overview",
+    "title": "Force Plate Percentile Analysis",
+    "section": "",
+    "text": "Input and Summary\n\n\n\n\n\nFluid Percentile Plots"
+  },
+  {
+    "objectID": "force-plate.html#features",
+    "href": "force-plate.html#features",
+    "title": "Force Plate Percentile Analysis",
+    "section": "Features",
+    "text": "Features\n\nECDF Percentiles: percentiles calculated with empirical cumulative distribution functions, allowing for within-group analysis\nCustomizable inputs: Built using tidyverse and Shiny, key metrics testing data allows for personal input and selection"
+  },
+  {
+    "objectID": "force-plate.html#view-the-project",
+    "href": "force-plate.html#view-the-project",
+    "title": "Force Plate Percentile Analysis",
+    "section": "View the Project",
+    "text": "View the Project\n\nLive Shiny App\nView Source Code on GitHub"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

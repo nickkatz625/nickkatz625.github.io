@@ -1,0 +1,20 @@
+---
+title: "Force Plate Percentile Analysis"
+toc: false
+---
+
+## Project Overview
+
+![Input and Summary](images/shiny_diagram.jpg){.column-body-outset}
+      
+
+![Fluid Percentile Plots](images/shiny_diagram2.jpg){width="100%"}
+    
+
+## Features
+* **ECDF Percentiles:** percentiles calculated with empirical cumulative distribution functions, allowing for within-group analysis
+* **Customizable inputs:** Built using `tidyverse` and `Shiny`, key metrics testing data allows for personal input and selection
+
+## View the Project
+* [**Live Shiny App**](https://gpr3vz-nick-katz.shinyapps.io/fpapp/) 
+* [**View Source Code on GitHub**]({{< var github-repo-link >}})

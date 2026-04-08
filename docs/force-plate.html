@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>About – Katz Performance</title>
+<title>Force Plate Percentile Analysis – Katz Performance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,7 +73,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -125,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -139,15 +139,13 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">Force Plate Percentile Analysis</h1>
 </div>
 
 
@@ -164,23 +162,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am a Biology major and Data Science minor at <strong>Lawrence University</strong>. As I am finishing up my fourth year of collegiate baseball, I hope to apply my expertise and experience to other athletes. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push our abilities to assist pitchers throughout return-to-throw processes. I’m currently working as a high performance trainer at Kinetic Performance Institute, working with high school and college pitchers in the weight room and on the mound.</p>
-<p>By leveraging <strong><em>R</em></strong>, <strong><em>Python</em></strong>, and <strong><em>biometric data</em></strong>, I specialize in optimizing pitching strategies and developing <strong>Return-To-Throw</strong> protocols that prioritize both high-velocity performance and long-term player health. My research uses systems like <strong>Armcare.com</strong>, <strong>driveline PUlSE</strong>, and <strong>FlexProGrip</strong> to target the musclatrure closely related to the UCL, looking to find potent training modalities to use in return-to-throw programming.</p>
-<div class="quarto-layout-panel" data-layout-ncol="3">
-<div class="quarto-layout-row">
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img src="images/armcare.jpg" class="img-fluid"></p>
+<section id="project-overview" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="project-overview">Project Overview</h2>
+<div class="quarto-figure quarto-figure-center page-columns page-full">
+<figure class="figure page-columns page-full">
+<p class="page-columns page-full"><img src="images/shiny_diagram.jpg" class="img-fluid figure-img column-body-outset"></p>
+<figcaption>Input and Summary</figcaption>
+</figure>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img src="images/pitching_pic.jpg" class="img-fluid"></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/shiny_diagram2.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Fluid Percentile Plots</figcaption>
+</figure>
 </div>
-<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
-<p><img src="images/kpi_logo.jpg" class="img-fluid"></p>
-</div>
-</div>
-</div>
+</section>
+<section id="features" class="level2">
+<h2 class="anchored" data-anchor-id="features">Features</h2>
+<ul>
+<li><strong>ECDF Percentiles:</strong> percentiles calculated with empirical cumulative distribution functions, allowing for within-group analysis</li>
+<li><strong>Customizable inputs:</strong> Built using <code>tidyverse</code> and <code>Shiny</code>, key metrics testing data allows for personal input and selection</li>
+</ul>
+</section>
+<section id="view-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="view-the-project">View the Project</h2>
+<ul>
+<li><a href="https://gpr3vz-nick-katz.shinyapps.io/fpapp/"><strong>Live Shiny App</strong></a></li>
+<li><a href="?var:github-repo-link"><strong>View Source Code on GitHub</strong></a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

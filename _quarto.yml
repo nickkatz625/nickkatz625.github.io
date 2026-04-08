@@ -16,10 +16,12 @@ website:
             text: "CMSC 405 Projects"
           - href: ml-projects.qmd
             text: "ML Projects"
-          - href: viz-projects.qmd
-            text: "Visualizations"
           - href: research-projects.qmd
             text: "Formal Research Projects"
+      - text: Visualizations
+        menu: 
+          - href: force-plate.qmd
+            text: "Force Plate Analysis"
       - href: about.qmd
         text: About
 
