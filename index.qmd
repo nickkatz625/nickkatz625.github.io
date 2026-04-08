@@ -17,4 +17,4 @@ about:
       text: Email
       href: "mailto:nickkatz575@gmail.com"
 ---
-### Return-To-Throw Rehab Analyst
+### RTT Specialist | Pitching Analyst

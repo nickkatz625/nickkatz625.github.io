@@ -19,7 +19,7 @@ website:
           - href: research-projects.qmd
             text: "Formal Research Projects"
       - href: about.qmd
-        text: Bio
+        text: About
 
 format:
   html:
