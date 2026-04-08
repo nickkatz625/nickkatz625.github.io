@@ -17,4 +17,4 @@ toc: false
 
 ## View the Project
 * [**Live Shiny App**](https://gpr3vz-nick-katz.shinyapps.io/fpapp/) 
-* [**View Source Code on GitHub**]({{< var github-repo-link >}})
+* [**View Source Code on GitHub**](https://github.com/nickkatz625/force-plate-percentile)
