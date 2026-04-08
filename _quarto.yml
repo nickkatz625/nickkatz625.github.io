@@ -14,8 +14,10 @@ website:
         menu:
           - href: class-projects.qmd
             text: "CMSC 405 Projects"
-          - href: general-projects.qmd
-            text: "Case Studies"
+          - href: ml-projects.qmd
+            text: "ML Projects"
+          - href: viz-projects.qmd
+            text: "Visualizations"
           - href: research-projects.qmd
             text: "Formal Research Projects"
       - href: about.qmd
