@@ -35,6 +35,20 @@
     "text": "View the Project\n\nLive Shiny App\nView Source Code on GitHub"
   },
   {
+    "objectID": "class-projects.html",
+    "href": "class-projects.html",
+    "title": "Class Projects",
+    "section": "",
+    "text": "HawkinR Presentation\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+  },
+  {
+    "objectID": "class-projects.html#project-1-r-package-presentation",
+    "href": "class-projects.html#project-1-r-package-presentation",
+    "title": "Class Projects",
+    "section": "",
+    "text": "HawkinR Presentation\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
