@@ -175,7 +175,7 @@ window.Quarto = {
   <ul>
   <li><a href="#project-1-r-package-presentation" id="toc-project-1-r-package-presentation" class="nav-link active" data-scroll-target="#project-1-r-package-presentation">Project 1: R Package Presentation</a></li>
   <li><a href="#project-2-sql-database-creation" id="toc-project-2-sql-database-creation" class="nav-link" data-scroll-target="#project-2-sql-database-creation">Project 2: SQL Database creation</a></li>
-  <li><a href="#project-3-text-analysis-with-hot-100-lyrics" id="toc-project-3-text-analysis-with-hot-100-lyrics" class="nav-link" data-scroll-target="#project-3-text-analysis-with-hot-100-lyrics">Project 3: Text Analysis with Hot 100 Lyrics</a></li>
+  <li><a href="#project-3-text-analysis-blog-with-hot-100-lyrics" id="toc-project-3-text-analysis-blog-with-hot-100-lyrics" class="nav-link" data-scroll-target="#project-3-text-analysis-blog-with-hot-100-lyrics">Project 3: Text Analysis Blog with Hot 100 Lyrics</a></li>
   <li><a href="#project-4-package-creation" id="toc-project-4-package-creation" class="nav-link" data-scroll-target="#project-4-package-creation">Project 4: Package Creation</a></li>
   </ul>
 </nav>
@@ -231,12 +231,12 @@ window.Quarto = {
 </ul>
 <p><img src="images/kpiasym.png" class="img-fluid" style="width:100.0%"></p>
 </section>
-<section id="project-3-text-analysis-with-hot-100-lyrics" class="level2">
-<h2 class="anchored" data-anchor-id="project-3-text-analysis-with-hot-100-lyrics">Project 3: Text Analysis with Hot 100 Lyrics</h2>
+<section id="project-3-text-analysis-blog-with-hot-100-lyrics" class="level2">
+<h2 class="anchored" data-anchor-id="project-3-text-analysis-blog-with-hot-100-lyrics">Project 3: Text Analysis Blog with Hot 100 Lyrics</h2>
 <ul>
 <li><a href="https://github.com/nickkatz625/Textual-Analysis"><strong>Textual Analysis Code</strong></a></li>
 </ul>
-<p>This project leverages computational text mining, regular expressions, and sentiment lexicons in <strong>R</strong> to analyze how the emotional valence and core themes of popular music have shifted across more than six decades of American culture. Using a dataset of Billboard Hot 100 song lyrics spanning 1959 to 2023, this analysis tests the common cultural sentiment that modern media has grown progressively “bleaker” over time. Working with a classmate, we completed a variety of analyses to explore this.</p>
+<p>This project leverages computational text mining, regular expressions, and sentiment lexicons in <strong>R</strong> to analyze how the emotional valence and core themes of popular music have shifted across more than six decades of American culture in a blogpost. Using a dataset of Billboard Hot 100 song lyrics spanning 1959 to 2023, this analysis tests the common cultural sentiment that modern media has grown progressively “bleaker” over time. Working with a classmate, we completed a variety of analyses to explore this.</p>
 <p><strong>Technical Workflow &amp; Methodology</strong></p>
 <ul>
 <li><strong>Advanced Text Cleaning:</strong> Built robust regular expressions via <code>stringr</code> to eliminate data density obstacles and scraping artifacts. Programmed custom extraction patterns to strip metadata prefixes, structural identifiers (e.g., <code>[Chorus]</code>, <code>[Verse]</code>), standalone musical notes (<code>♫</code>), and chart-position labels without mutating actual lyrical strings.</li>
@@ -248,6 +248,7 @@ window.Quarto = {
 </ul></li>
 <li><strong>Theme Extraction via tf-idf:</strong> Applied Term Frequency-Inverse Document Frequency (<code>bind_tf_idf</code>) grouped by decade to discover signature words defining different generations of listeners. By creating a custom scaled interaction index (<span class="math inline">\(\text{tf-idf} \times \text{AFINN Valence}\)</span>), the project isolates heavily weighted, high-emotion terms to explicitly trace historical turning points—such as the bleakness of the 1970s and a surprise rebound toward highly positive vernacular (“woo”, “ha”) in the early 2020s.</li>
 </ul>
+<p><img src="images/timescale.png" class="img-fluid" style="width:100.0%"> <img src="images/emot.png" class="img-fluid" width="100"></p>
 </section>
 <section id="project-4-package-creation" class="level2">
 <h2 class="anchored" data-anchor-id="project-4-package-creation">Project 4: Package Creation</h2>
