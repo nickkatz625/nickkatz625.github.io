@@ -46,7 +46,7 @@ This project leverages computational text mining, regular expressions, and senti
 * **Theme Extraction via tf-idf:** Applied Term Frequency-Inverse Document Frequency (`bind_tf_idf`) grouped by decade to discover signature words defining different generations of listeners. By creating a custom scaled interaction index ($\text{tf-idf} \times \text{AFINN Valence}$), the project isolates heavily weighted, high-emotion terms to explicitly trace historical turning points—such as the bleakness of the 1970s and a surprise rebound toward highly positive vernacular ("woo", "ha") in the early 2020s.
 
 ![](images/timescale.png){width="100%"}
-![](images/emot.png){width="100"}
+![](images/emot.png){width="100%"}
 
 ## Project 4: Package Creation
 
