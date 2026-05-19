@@ -1,11 +1,11 @@
 ---
 title: "Nick Katz"
-image: images/profile.jpg
+image: images/_DSC3439.jpg
 toc: false
 about:
   template: jolla
   image-shape: rounded
-  image-width: 15em
+  image-width: 30em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -16,5 +16,27 @@ about:
     - icon: envelope
       text: Email
       href: "mailto:nickkatz575@gmail.com"
+    - icon: instagram
+      text: Instagram
+      href: https://www.instagram.com/katzperformanceandtraining/
+format: 
+  html:
+    page-layout: full
+    
 ---
-### RTT Specialist | Pitching Analyst
+
+## RTT Specialist | Pitching Analyst | Ping-pong Enthusiast 
+
+::: {.recent-news-panel}
+### Recent Updates
+
+**Layback Podcast episode OUT NOW** I was honored to hop on the layback podcast with Adam Moreau to talk shop on all things impulses and rehab.  
+[Watch here! &rarr;](https://youtu.be/XVqAdkR39-M?si=SxaqlieEFDToBfvN)
+
+***
+
+**SQL Force Plate Database** The building blocks of creating a facility wide DB in SQL
+[Read Full Analysis &rarr;](#)
+
+:::
+

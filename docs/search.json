@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Nick Katz",
     "section": "",
-    "text": "RTT Specialist | Pitching Analyst"
+    "text": "Layback Podcast episode OUT NOW I was honored to hop on the layback podcast with Adam Moreau to talk shop on all things impulses and rehab.\nWatch here! →\n\nSQL Force Plate Database The building blocks of creating a facility wide DB in SQL Read Full Analysis →"
   },
   {
     "objectID": "force-plate.html",
@@ -89,5 +89,12 @@
     "title": "Class Projects",
     "section": "Project 3: Text Analysis Blog with Hot 100 Lyrics",
     "text": "Project 3: Text Analysis Blog with Hot 100 Lyrics\n\nTextual Analysis Code\n\nThis project leverages computational text mining, regular expressions, and sentiment lexicons in R to analyze how the emotional valence and core themes of popular music have shifted across more than six decades of American culture in a blogpost. Using a dataset of Billboard Hot 100 song lyrics spanning 1959 to 2023, this analysis tests the common cultural sentiment that modern media has grown progressively “bleaker” over time. Working with a classmate, we completed a variety of analyses to explore this.\nTechnical Workflow & Methodology\n\nAdvanced Text Cleaning: Built robust regular expressions via stringr to eliminate data density obstacles and scraping artifacts. Programmed custom extraction patterns to strip metadata prefixes, structural identifiers (e.g., [Chorus], [Verse]), standalone musical notes (♫), and chart-position labels without mutating actual lyrical strings.\nTokenization & Corpus Pruning: Utilized tidytext to tokenize millions of rows of text down to individual word tokens, filtering out standard English stop words as well as multi-lexicon profanity and hate speech filters from the lexicon package to avoid rare-token confounding.\nSentiment Analysis & Lexicon Evaluation: Linked token data across multiple emotional databases:\n\nUsed the Bing lexicon to calculate a normalized, length-adjusted sentiment score. The data reveals a clear negative trend line starting in the mid-1990s, while concurrently mapping a 30% relative decline in lexicon coverage caused by systemic shifts toward African American Vernacular English (AAVE) in chart-topping hip-hop.\nIntegrated the AFINN lexicon to map granular emotional valence against specific decades.\n\nTheme Extraction via tf-idf: Applied Term Frequency-Inverse Document Frequency (bind_tf_idf) grouped by decade to discover signature words defining different generations of listeners. By creating a custom scaled interaction index (\\(\\text{tf-idf} \\times \\text{AFINN Valence}\\)), the project isolates heavily weighted, high-emotion terms to explicitly trace historical turning points—such as the bleakness of the 1970s and a surprise rebound toward highly positive vernacular (“woo”, “ha”) in the early 2020s."
+  },
+  {
+    "objectID": "index.html#rtt-specialist-pitching-analyst-ping-pong-enthusiast",
+    "href": "index.html#rtt-specialist-pitching-analyst-ping-pong-enthusiast",
+    "title": "Nick Katz",
+    "section": "",
+    "text": "Layback Podcast episode OUT NOW I was honored to hop on the layback podcast with Adam Moreau to talk shop on all things impulses and rehab.\nWatch here! →\n\nSQL Force Plate Database The building blocks of creating a facility wide DB in SQL Read Full Analysis →"
   }
 ]

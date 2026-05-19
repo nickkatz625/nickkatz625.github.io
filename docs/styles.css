@@ -44,3 +44,56 @@ body {
   color: white !important;
 }
 
+/* --- 1. Make the Jolla Social Links & Icons Bigger --- */
+.quarto-about-jolla .about-links .about-link {
+  font-size: 1.25rem !important;      /* Makes button text noticeably larger */
+  padding: 10px 20px !important;     /* Gives buttons a more substantial footprint */
+  border-width: 2px !important;      /* Makes the outline ring pop */
+  border-radius: 8px !important;
+}
+
+.quarto-about-jolla .about-links .about-link i {
+  font-size: 1.4rem !important;      /* Increases the scale of the icon symbols natively */
+  margin-right: 6px;
+}
+
+/* --- 2. Move the Recent News Block to a Sidebar Panel --- */
+@media (min-width: 992px) {
+  /* Only shifts to a sidebar on desktop screens to protect mobile display */
+  .recent-news-panel {
+    position: absolute;
+    top: 120px;
+    right: 4%;
+    width: 280px;
+    background-color: rgba(30, 30, 30, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: left;
+  }
+  
+  .recent-news-panel h3 {
+    font-size: 1.3rem !important;
+    border-bottom: 2px solid #00d4ff;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .recent-news-panel p, .recent-news-panel strong {
+    font-size: 1rem !important;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 991px) {
+  /* On mobile screens, beautifully formats it as a neat banner below your profile bio */
+  .recent-news-panel {
+    margin-top: 40px;
+    background-color: rgba(30, 30, 30, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+    text-align: left;
+  }
+}
