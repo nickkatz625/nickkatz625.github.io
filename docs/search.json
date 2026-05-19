@@ -39,14 +39,14 @@
     "href": "class-projects.html",
     "title": "Class Projects",
     "section": "",
-    "text": "HawkinR Presentation\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+    "text": "HawkinR Presentation Code\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
   },
   {
     "objectID": "class-projects.html#project-1-r-package-presentation",
     "href": "class-projects.html#project-1-r-package-presentation",
     "title": "Class Projects",
     "section": "",
-    "text": "HawkinR Presentation\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+    "text": "HawkinR Presentation Code\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,33 @@
     "title": "About",
     "section": "",
     "text": "I am a Biology major and Data Science minor at Lawrence University. As I am finishing up my fourth year of collegiate baseball, I hope to apply my expertise and experience to other athletes. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push our abilities to assist pitchers throughout return-to-throw processes. I’m currently working as a high performance trainer at Kinetic Performance Institute, working with high school and college pitchers in the weight room and on the mound.\nBy leveraging R, Python, and biometric data, I specialize in optimizing pitching strategies and developing Return-To-Throw protocols that prioritize both high-velocity performance and long-term player health. My research uses systems like Armcare.com, driveline PUlSE, and FlexProGrip to target the musclatrure closely related to the UCL, looking to find potent training modalities to use in return-to-throw programming."
+  },
+  {
+    "objectID": "class-projects.html#project-2-sql-database-creation",
+    "href": "class-projects.html#project-2-sql-database-creation",
+    "title": "Class Projects",
+    "section": "Project 2: SQL Database creation",
+    "text": "Project 2: SQL Database creation\n\nSQL Workflow Code\n\nThis project showcases the end-to-end data engineering workflow of building, optimizing, and querying a local relational database for sports performance tracking. Using raw force plate data spanning 365 days of testing across more than 400 athletes, this project involved extracting metrics from Countermovement Jumps (CMJ), Squat Jumps (SJ), and Multi-Rebound (MR) tests.\nProject Workflow & Architecture\n\nData Extraction & Cleaning: Handled severe data density by cutting down original datasets containing 257 variables to jump-specific metrics (ranging between 34 to 87 optimized variables) using tidyverse.\nDatabase Engineering: Initialized an embedded high-performance DuckDB database instance directly in R. Designed relational schemas to handle specialized tracking, creating standalone optimized tables for athletes, CMJ_cleaned, SJ_cleaned, and MR_cleaned with designated Primary Keys and strictly defined data types.\nAdvanced SQL Querying: Formulated complex analytics queries to track performance trends, utilizing:\n\nUNION operations to isolate the fastest explosive movers across multiple jump tests based on takeoff velocities.\nMultiple LEFT JOIN operations and aggregate metrics (AVG, HAVING COUNT(*)) to evaluate relationships between landing mechanics and reactive strength indices.\nConditional programming using CASE WHEN clauses to engineer automated data-driven alerts flag ranking athletes at Balanced, Moderate Risk, or High Risk based on bilateral force imbalances.\n\nBiomechanical Visualization: Programmed a high-impact, custom-themed asymmetric population plot using ggplot2, patchwork, and magick to visually split and isolate left-vs-right limb deficiencies across movement phases (Braking vs. Propulsive) for risk management."
+  },
+  {
+    "objectID": "class-projects.html#project-3-text-analysis",
+    "href": "class-projects.html#project-3-text-analysis",
+    "title": "Class Projects",
+    "section": "Project 3: Text Analysis",
+    "text": "Project 3: Text Analysis"
+  },
+  {
+    "objectID": "class-projects.html#project-4-package-creation",
+    "href": "class-projects.html#project-4-package-creation",
+    "title": "Class Projects",
+    "section": "Project 4: Package Creation",
+    "text": "Project 4: Package Creation"
+  },
+  {
+    "objectID": "class-projects.html#project-3-text-analysis-with-hot-100-lyrics",
+    "href": "class-projects.html#project-3-text-analysis-with-hot-100-lyrics",
+    "title": "Class Projects",
+    "section": "Project 3: Text Analysis with Hot 100 Lyrics",
+    "text": "Project 3: Text Analysis with Hot 100 Lyrics\n\nTextual Analysis Code\n\nThis project leverages computational text mining, regular expressions, and sentiment lexicons in R to analyze how the emotional valence and core themes of popular music have shifted across more than six decades of American culture. Using a dataset of Billboard Hot 100 song lyrics spanning 1959 to 2023, this analysis tests the common cultural sentiment that modern media has grown progressively “bleaker” over time. Working with a classmate, we completed a variety of analyses to explore this.\nTechnical Workflow & Methodology\n\nAdvanced Text Cleaning: Built robust regular expressions via stringr to eliminate data density obstacles and scraping artifacts. Programmed custom extraction patterns to strip metadata prefixes, structural identifiers (e.g., [Chorus], [Verse]), standalone musical notes (♫), and chart-position labels without mutating actual lyrical strings.\nTokenization & Corpus Pruning: Utilized tidytext to tokenize millions of rows of text down to individual word tokens, filtering out standard English stop words as well as multi-lexicon profanity and hate speech filters from the lexicon package to avoid rare-token confounding.\nSentiment Analysis & Lexicon Evaluation: Linked token data across multiple emotional databases:\n\nUsed the Bing lexicon to calculate a normalized, length-adjusted sentiment score. The data reveals a clear negative trend line starting in the mid-1990s, while concurrently mapping a 30% relative decline in lexicon coverage caused by systemic shifts toward African American Vernacular English (AAVE) in chart-topping hip-hop.\nIntegrated the AFINN lexicon to map granular emotional valence against specific decades.\n\nTheme Extraction via tf-idf: Applied Term Frequency-Inverse Document Frequency (bind_tf_idf) grouped by decade to discover signature words defining different generations of listeners. By creating a custom scaled interaction index (\\(\\text{tf-idf} \\times \\text{AFINN Valence}\\)), the project isolates heavily weighted, high-emotion terms to explicitly trace historical turning points—such as the bleakness of the 1970s and a surprise rebound toward highly positive vernacular (“woo”, “ha”) in the early 2020s."
   }
 ]
