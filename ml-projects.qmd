@@ -1,7 +1,7 @@
 ---
 title: "Machine Learning Projects"
 description: "Applying data science and predictive modeling to optimize athletic performance and biomechanics."
-toc: true
+toc: false
 ---
 
 ---
@@ -43,4 +43,10 @@ Explore the full methodology, code, and non-technical breakdowns below:
 
 :::
 
+### Visualizing the Data: Feature Importance
+
+The model successfully isolated the most impactful variables out of the 79+ original metrics. As visualized in the importance plot below, `flight_time` and `avg_propulsive_power` hold the highest predictive weight, followed by propulsive net impulse. these acceleratory phase metrics indicate the ability to transfer eccentric forces into a concentric, propulsive movement are the closest ties to mound velocity.
+
+
+![](images/varimport.png){width=100% fig-align="center"}
 ---

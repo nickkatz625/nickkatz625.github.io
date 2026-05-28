@@ -4,17 +4,20 @@ page-layout: full
 toc: false
 ---
 
-::: {.grid}
 
-::: {.g-col-12 .g-col-md-4}
-![](images/pitching_pic.jpg){style="border-radius: 15px; width: 100%; max-width: 400px;"}
+::: {layout-ncol=3 layout-valign="bottom"}
+
+![](images/pitching_pic.jpg){style="width: 100%; height: 400px; object-fit: cover; border-radius: 15px;"}
+
+![](images/IMG_3232.JPEG){style="width: 100%; height: 400px; object-fit: cover; border-radius: 15px;"}
+
+![](images/IMG_4269.JPEG){style="width: 100%; height: 400px; object-fit: cover; border-radius: 15px;"}
+
 :::
 
-::: {.g-col-12 .g-col-md-8}
-I am a Biology major and Data Science minor at **Lawrence University**, wrapping up my fourth year of collegiate baseball as a pitching captain. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push athlete abilities and assist pitchers throughout return-to-throw (RTT) processes. 
-:::
 
-:::
+I am a Biology major and Data Science minor at **Lawrence University**, wrapping up my fourth year of collegiate baseball as a pitching captain. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push athlete abilities and assist pitchers throughout return-to-throw (RTT) processes. In my free time, I love hiking with my friends and family, cooking, and (painful) running.
+
 
 
 ## Coaching & Development
@@ -28,10 +31,12 @@ My analytical approach relies heavily on biometric data collected from real athl
 
 ### Affiliations & Technologies
 
-::: {layout-ncol=3}
-![](images/armcare.jpg){width=200, height=200}
+::: {layout-ncol=4}
+![](images/armcare.jpg){style="width: 200px; height: 200px; object-fit: contain;"}
 
-![](images/kpi_logo.jpg){width=200, height=200}
+![](images/kpi_logo.jpg){style="width: 200px; height: 200px; object-fit: contain;"}
 
-![](images/trackman.jpg){width=200, height=200}
+![](images/trackman.jpg){style="width: 200px; height: 200px; object-fit: contain;"}
+
+![](images/hawkins.png){style="width: 200px; height: 200px; object-fit: contain;"}
 :::

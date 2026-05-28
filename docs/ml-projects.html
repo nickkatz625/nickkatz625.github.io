@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -140,18 +140,7 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound" id="toc-predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound" class="nav-link active" data-scroll-target="#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound">Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?</a>
-  <ul class="collapse">
-  <li><a href="#project-breakdown" id="toc-project-breakdown" class="nav-link" data-scroll-target="#project-breakdown">Project Breakdown</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -219,10 +208,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<hr>
-
-
 </section>
+<section id="visualizing-the-data-feature-importance" class="level3">
+<h3 class="anchored" data-anchor-id="visualizing-the-data-feature-importance">Visualizing the Data: Feature Importance</h3>
+<p>The model successfully isolated the most impactful variables out of the 79+ original metrics. As visualized in the importance plot below, <code>flight_time</code> and <code>avg_propulsive_power</code> hold the highest predictive weight, followed by propulsive net impulse. these acceleratory phase metrics indicate the ability to transfer eccentric forces into a concentric, propulsive movement are the closest ties to mound velocity.</p>
+</section>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"><img src="images/varimport.png" class="img-fluid quarto-figure quarto-figure-center" style="width:100.0%"></h2>
+
+
 </section>
 
 </main> <!-- /main -->
