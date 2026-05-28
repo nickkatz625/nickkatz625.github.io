@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Applying data science and predictive modeling to optimize athletic performance and biomechanics.">
 
-<title>ml-projects – Katz Performance</title>
+<title>Machine Learning Projects – Katz Performance</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">ML Projects</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./research-projects.qmd">
+    <a class="dropdown-item" href="./research-projects.html">
  <span class="dropdown-text">Formal Research Projects</span></a>
   </li>  
     </ul>
@@ -139,17 +140,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound" id="toc-predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound" class="nav-link active" data-scroll-target="#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound">Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?</a>
+  <ul class="collapse">
+  <li><a href="#project-breakdown" id="toc-project-breakdown" class="nav-link" data-scroll-target="#project-breakdown">Project Breakdown</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">ml-projects</h1>
+<h1 class="title">Machine Learning Projects</h1>
 </div>
 
+<div>
+  <div class="description">
+    Applying data science and predictive modeling to optimize athletic performance and biomechanics.
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -164,8 +179,51 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<hr>
+<section id="predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound" class="level2">
+<h2 class="anchored" data-anchor-id="predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound">Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?</h2>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Objective:</strong> To determine if lower-body mechanics and force output from a Countermovement Jump (CMJ) can accurately predict a pitcher’s throwing velocity using machine learning regression models.</p>
+</div>
+</div>
+</div>
+<p><strong>Tools &amp; Technologies:</strong> <code>R</code>, <code>Machine Learning (Regression)</code>, <code>Hawkin Dynamics Force Plates</code></p>
+<section id="project-breakdown" class="level3">
+<h3 class="anchored" data-anchor-id="project-breakdown">Project Breakdown</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">️ Context &amp; Data</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Methodology</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Key Findings</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">📄 Reports &amp; Code</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p>Lower body strength and force output are key factors in building the body to handle the demands of throwing. Working at the <strong>Kinetic Performance Institute (KPI)</strong> in California, I utilized athlete monitoring data derived from daily Countermovement Jumps (CMJ). The goal was to take complex, multi-variable force plate data and translate it into a predictive profile for on-mound velocity.</p>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p>The initial dataset contained over <strong>79 potential force plate metrics</strong>. Using feature selection and dimensionality reduction techniques, the model isolated the variables most heavily correlated with throwing velocity to reduce noise and prevent overfitting.</p>
+<p>The models were evaluated based on their Root Mean Squared Error (RMSE) to determine how closely they could predict a pitcher’s actual fastball velocity based purely on their lower-body jump mechanics.</p>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p>The final model produced an <strong>RMSE of 6.31</strong>, meaning it predicts throwing velocity within about ± 6.3 mph on average. While there is room to improve absolute accuracy, the model successfully identified the <strong>7 most critical metrics</strong> for velocity prediction.</p>
+<p>The top drivers of velocity included: * <strong>Flight Time &amp; Average Propulsive Power:</strong> Dictates how much force the athlete produces against the ground and how efficiently they move that load. * <strong>Stiffness &amp; Average Braking Power:</strong> Relates to how well an athlete absorbs force and rapidly transitions to upward motion.</p>
+<p><strong>Training Takeaway:</strong> Coaches should prioritize drop-based plyometrics and overcoming isometrics to maximize change of momentum and force capacity during acceleration.</p>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Explore the full methodology, code, and non-technical breakdowns below:</p>
+<ul>
+<li><a href="data/final_report.html"><strong>Read the Full Technical Report (HTML)</strong></a></li>
+<li><a href="https://github.com/yourusername/repo-name"><strong>View the Repository on GitHub</strong></a></li>
+</ul>
+</div>
+</div>
+</div>
+<hr>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

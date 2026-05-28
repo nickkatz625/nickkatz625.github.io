@@ -1,6 +1,46 @@
 ---
-title: "ml-projects"
+title: "Machine Learning Projects"
+description: "Applying data science and predictive modeling to optimize athletic performance and biomechanics."
+toc: true
 ---
 
+---
 
+## Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?
 
+::: {.callout-note appearance="simple"}
+**Objective:** To determine if lower-body mechanics and force output from a Countermovement Jump (CMJ) can accurately predict a pitcher's throwing velocity using machine learning regression models. 
+:::
+
+**Tools & Technologies:** `R`, `Machine Learning (Regression)`, `Hawkin Dynamics Force Plates`
+
+### Project Breakdown
+
+::: {.panel-tabset}
+
+#### ️ Context & Data
+Lower body strength and force output are key factors in building the body to handle the demands of throwing. Working at the **Kinetic Performance Institute (KPI)** in California, I utilized athlete monitoring data derived from daily Countermovement Jumps (CMJ). The goal was to take complex, multi-variable force plate data and translate it into a predictive profile for on-mound velocity.
+
+####  Methodology
+The initial dataset contained over **79 potential force plate metrics**. Using feature selection and dimensionality reduction techniques, the model isolated the variables most heavily correlated with throwing velocity to reduce noise and prevent overfitting. 
+
+The models were evaluated based on their Root Mean Squared Error (RMSE) to determine how closely they could predict a pitcher's actual fastball velocity based purely on their lower-body jump mechanics.
+
+#### Key Findings
+The final model produced an **RMSE of 6.31**, meaning it predicts throwing velocity within about ± 6.3 mph on average. While there is room to improve absolute accuracy, the model successfully identified the **7 most critical metrics** for velocity prediction. 
+
+The top drivers of velocity included:
+* **Flight Time & Average Propulsive Power:** Dictates how much force the athlete produces against the ground and how efficiently they move that load.
+* **Stiffness & Average Braking Power:** Relates to how well an athlete absorbs force and rapidly transitions to upward motion.
+
+**Training Takeaway:** Coaches should prioritize drop-based plyometrics and overcoming isometrics to maximize change of momentum and force capacity during acceleration.
+
+#### 📄 Reports & Code
+Explore the full methodology, code, and non-technical breakdowns below:
+
+* [**Read the Full Technical Report (HTML)**](data/final_report.html)
+* [**View the Repository on GitHub**](https://github.com/yourusername/repo-name)
+
+:::
+
+---

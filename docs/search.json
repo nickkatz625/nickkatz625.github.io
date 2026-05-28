@@ -39,21 +39,21 @@
     "href": "class-projects.html",
     "title": "Class Projects",
     "section": "",
-    "text": "HawkinR Presentation Code\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+    "text": "HawkinR Presentation in Rpubs\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
   },
   {
     "objectID": "class-projects.html#project-1-r-package-presentation",
     "href": "class-projects.html#project-1-r-package-presentation",
     "title": "Class Projects",
     "section": "",
-    "text": "HawkinR Presentation Code\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
+    "text": "HawkinR Presentation in Rpubs\n\nThis presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API connection, pull different types of data, and store force plate data from over 400 athletes."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "About Me",
     "section": "",
-    "text": "I am a Biology major and Data Science minor at Lawrence University. As I am finishing up my fourth year of collegiate baseball, I hope to apply my expertise and experience to other athletes. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push our abilities to assist pitchers throughout return-to-throw processes. I’m currently working as a high performance trainer at Kinetic Performance Institute, working with high school and college pitchers in the weight room and on the mound.\nBy leveraging R, Python, and biometric data, I specialize in optimizing pitching strategies and developing Return-To-Throw protocols that prioritize both high-velocity performance and long-term player health. My research uses systems like Armcare.com, driveline PUlSE, and FlexProGrip to target the musclatrure closely related to the UCL, looking to find potent training modalities to use in return-to-throw programming."
+    "text": "I am a Biology major and Data Science minor at Lawrence University, wrapping up my fourth year of collegiate baseball as a pitching captain. My mission is to bridge the gap between strength and conditioning and throwing rehabilitation, utilizing data analytics to push athlete abilities and assist pitchers throughout return-to-throw (RTT) processes."
   },
   {
     "objectID": "class-projects.html#project-2-sql-database-creation",
@@ -96,5 +96,47 @@
     "title": "Nick Katz",
     "section": "",
     "text": "Layback Podcast episode OUT NOW I was honored to hop on the layback podcast with Adam Moreau to talk shop on all things impulses and rehab.\nWatch here! →\n\nSQL Force Plate Database The building blocks of creating a facility wide DB in SQL Read Full Analysis →"
+  },
+  {
+    "objectID": "ml-projects.html#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound",
+    "href": "ml-projects.html#predicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound",
+    "title": "Machine Learning Projects",
+    "section": "Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?",
+    "text": "Predicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?\n\n\n\n\n\n\nObjective: To determine if lower-body mechanics and force output from a Countermovement Jump (CMJ) can accurately predict a pitcher’s throwing velocity using machine learning regression models.\n\n\n\nTools & Technologies: R, Machine Learning (Regression), Hawkin Dynamics Force Plates\n\nProject Breakdown\n\n️ Context & DataMethodologyKey Findings📄 Reports & Code\n\n\nLower body strength and force output are key factors in building the body to handle the demands of throwing. Working at the Kinetic Performance Institute (KPI) in California, I utilized athlete monitoring data derived from daily Countermovement Jumps (CMJ). The goal was to take complex, multi-variable force plate data and translate it into a predictive profile for on-mound velocity.\n\n\nThe initial dataset contained over 79 potential force plate metrics. Using feature selection and dimensionality reduction techniques, the model isolated the variables most heavily correlated with throwing velocity to reduce noise and prevent overfitting.\nThe models were evaluated based on their Root Mean Squared Error (RMSE) to determine how closely they could predict a pitcher’s actual fastball velocity based purely on their lower-body jump mechanics.\n\n\nThe final model produced an RMSE of 6.31, meaning it predicts throwing velocity within about ± 6.3 mph on average. While there is room to improve absolute accuracy, the model successfully identified the 7 most critical metrics for velocity prediction.\nThe top drivers of velocity included: * Flight Time & Average Propulsive Power: Dictates how much force the athlete produces against the ground and how efficiently they move that load. * Stiffness & Average Braking Power: Relates to how well an athlete absorbs force and rapidly transitions to upward motion.\nTraining Takeaway: Coaches should prioritize drop-based plyometrics and overcoming isometrics to maximize change of momentum and force capacity during acceleration.\n\n\nExplore the full methodology, code, and non-technical breakdowns below:\n\nRead the Full Technical Report (HTML)\nView the Repository on GitHub"
+  },
+  {
+    "objectID": "ml-projects.html#redicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound",
+    "href": "ml-projects.html#redicting-velocity-with-force-plates-can-lower-body-forces-predict-velocity-on-the-mound",
+    "title": "Machine Learning Projects",
+    "section": "⚾redicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?",
+    "text": "⚾redicting Velocity with Force Plates: Can Lower Body Forces Predict Velocity on the Mound?\n\n\n\n\n\n\nObjective: To determine if lower-body mechanics and force output from a Countermovement Jump (CMJ) can accurately predict a pitcher’s throwing velocity using machine learning regression models.\n\n\n\nTools & Technologies: R, Machine Learning (Regression), Hawkin Dynamics Force Plates\n\nProject Breakdown\n\n🛠️ Context & Data⚙️ Methodology📊 Key Findings📄 Reports & Code\n\n\nLower body strength and force output are key factors in building the body to handle the demands of throwing. Working at the Kinetic Performance Institute (KPI) in California, I utilized athlete monitoring data derived from daily Countermovement Jumps (CMJ). The goal was to take complex, multi-variable force plate data and translate it into a predictive profile for on-mound velocity.\n\n\nThe initial dataset contained over 79 potential force plate metrics. Using feature selection and dimensionality reduction techniques, the model isolated the variables most heavily correlated with throwing velocity to reduce noise and prevent overfitting.\nThe models were evaluated based on their Root Mean Squared Error (RMSE) to determine how closely they could predict a pitcher’s actual fastball velocity based purely on their lower-body jump mechanics.\n\n\nThe final model produced an RMSE of 6.31, meaning it predicts throwing velocity within about ± 6.3 mph on average. While there is room to improve absolute accuracy, the model successfully identified the 7 most critical metrics for velocity prediction.\nThe top drivers of velocity included: * Flight Time & Average Propulsive Power: Dictates how much force the athlete produces against the ground and how efficiently they move that load. * Stiffness & Average Braking Power: Relates to how well an athlete absorbs force and rapidly transitions to upward motion.\nTraining Takeaway: Coaches should prioritize drop-based plyometrics and overcoming isometrics to maximize change of momentum and force capacity during acceleration.\n\n\nExplore the full methodology, code, and non-technical breakdowns below:\n\nRead the Full Technical Report (HTML)\nRead the Non-Technical Executive Summary\nView the Repository on GitHub\n\n\n\n\n\n\n\nVisualizing the Data\n(Tip: You can embed one of the interactive plots from your HTML report right here! For example, a ggplot showing the correlation between Propulsive Power and Velocity. Just replace the code chunk below with your actual R code.)\n```htehb #| echo: false #| warning: false #| message: false #| fig-cap: “Correlation between Average Propulsive Power and Mound Velocity”"
+  },
+  {
+    "objectID": "about.html#coaching-development",
+    "href": "about.html#coaching-development",
+    "title": "About Me",
+    "section": "Coaching & Development",
+    "text": "Coaching & Development\nAs I transition into a full-time role as a High Performance Trainer at the Kinetic Performance Institute (KPI), I work extensively with high school and college pitchers in the weight room and on the mound. By leveraging R and Python, I build models to optimize pitching strategies and develop RTT protocols that prioritize both high-velocity performance and long-term player health. I hope to make interesting, informative visualizations with clean, accurate data to help players better understand how they move and allow practitioners to program more efficently."
+  },
+  {
+    "objectID": "about.html#research-biomechanics",
+    "href": "about.html#research-biomechanics",
+    "title": "About Me",
+    "section": "Research & Biomechanics",
+    "text": "Research & Biomechanics\nMy analytical approach relies heavily on biometric data collected from real athletes. I exclusively utilize Hawkins and Newt force plate data to look at changes over time, create injury management models, and organize hundreds of athletes’ data. My recent senior capstone study, “Bulletproofing the Elbow,” investigated potent training modalities for UCL-related musculature. The study found a highly significant 0.91 effect size on grip strength for the Explosive-Impulse Group (EIG). To monitor and program for these adaptations, I integrated data from systems like Armcare.com, Tindeq, and Trackman. After submitting for publication to the Topics of Exercise Science and Kinesiology, I was invited onto the Layback Podcast with FlexProGrip founder Adam Moreau, where we go on a deep dive into impulses and my research. Check that out here!\n\n\nAffiliations & Technologies"
+  },
+  {
+    "objectID": "index.html#recent-updates-projects",
+    "href": "index.html#recent-updates-projects",
+    "title": "Nick Katz",
+    "section": "Recent Updates & Projects",
+    "text": "Recent Updates & Projects\n\n\n\nLayback Podcast Episode OUT NOW!\nI was honored to hop on the Layback Podcast with FlexProGrip founder Adam Moreau to talk shop on all things impulses and my research.\nWatch the Deep Dive Here! →\n\n\n\n\nSQL Force Plate Database\nThe building blocks of creating a facility-wide database in SQL using hawkinR for data extraction.\nRead Full Analysis →"
+  },
+  {
+    "objectID": "class-projects.html#sql-database",
+    "href": "class-projects.html#sql-database",
+    "title": "Class Projects",
+    "section": "Project 2: SQL Database creation",
+    "text": "Project 2: SQL Database creation\n\nSQL Workflow Code\n\nThis project showcases the end-to-end data engineering workflow of building, optimizing, and querying a local relational database for sports performance tracking. Using raw force plate data spanning 365 days of testing across more than 400 athletes, this project involved extracting metrics from Countermovement Jumps (CMJ), Squat Jumps (SJ), and Multi-Rebound (MR) tests.\nProject Workflow & Architecture\n\nData Extraction & Cleaning: Handled severe data density by cutting down original datasets containing 257 variables to jump-specific metrics (ranging between 34 to 87 optimized variables) using tidyverse.\nDatabase Engineering: Initialized an embedded high-performance DuckDB database instance directly in R. Designed relational schemas to handle specialized tracking, creating standalone optimized tables for athletes, CMJ_cleaned, SJ_cleaned, and MR_cleaned with designated Primary Keys and strictly defined data types.\nAdvanced SQL Querying: Formulated complex analytics queries to track performance trends, utilizing:\n\nUNION operations to isolate the fastest explosive movers across multiple jump tests based on takeoff velocities.\nMultiple LEFT JOIN operations and aggregate metrics (AVG, HAVING COUNT(*)) to evaluate relationships between landing mechanics and reactive strength indices.\nConditional programming using CASE WHEN clauses to engineer automated data-driven alerts flag ranking athletes at Balanced, Moderate Risk, or High Risk based on bilateral force imbalances.\n\nBiomechanical Visualization: Programmed a high-impact, custom-themed asymmetric population plot using ggplot2, patchwork, and magick to visually split and isolate left-vs-right limb deficiencies across movement phases (Braking vs. Propulsive) for risk management."
   }
 ]

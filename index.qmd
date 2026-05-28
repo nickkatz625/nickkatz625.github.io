@@ -5,7 +5,7 @@ toc: false
 about:
   template: jolla
   image-shape: rounded
-  image-width: 30em
+  image-width: 45em
   links:
     - icon: linkedin
       text: LinkedIn
@@ -25,18 +25,30 @@ format:
     
 ---
 
-## RTT Specialist | Pitching Analyst | Ping-pong Enthusiast 
+## RTT Researcher | Pitching Analyst | Ping-pong Enthusiast 
 
-::: {.recent-news-panel}
-### Recent Updates
+---
 
-**Layback Podcast episode OUT NOW** I was honored to hop on the layback podcast with Adam Moreau to talk shop on all things impulses and rehab.  
-[Watch here! &rarr;](https://youtu.be/XVqAdkR39-M?si=SxaqlieEFDToBfvN)
+## Recent Updates & Projects
 
-***
+::: {.grid}
 
-**SQL Force Plate Database** The building blocks of creating a facility wide DB in SQL
-[Read Full Analysis &rarr;](#)
+::: {.g-col-12 .g-col-md-6}
+::: {.card .p-4 .shadow-sm .bg-light}
+###  Layback Podcast Episode OUT NOW!
+I was honored to hop on the Layback Podcast with FlexProGrip founder Adam Moreau to talk shop on all things impulses and my research.
 
+[**Watch the Deep Dive Here! &rarr;**](https://youtu.be/XVqAdkR39-M?si=SxaqlieEFDToBfvN)
+:::
 :::
 
+::: {.g-col-12 .g-col-md-6}
+::: {.card .p-4 .shadow-sm .bg-light}
+###  SQL Force Plate Database
+The building blocks of creating a facility-wide database in SQL using hawkinR for data extraction. 
+
+[**Read Full Analysis &rarr;**](class-projects.qmd#sql-database)
+:::
+:::
+
+:::

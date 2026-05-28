@@ -5,7 +5,7 @@ toc: true
 ---
 
 ## Project 1: R Package Presentation
-* [**HawkinR Presentation Code**](http://rpubs.com/nickkatz625/1425460)
+* [**HawkinR Presentation in Rpubs**](http://rpubs.com/nickkatz625/1425460)
 
 This presentation created in Quarto outlines the usage of the hawkinR package, an API integration package made for force plate data acquisition. It goes over how to set up the API
 connection, pull different types of data, and store force plate data from over 400 athletes.
@@ -14,7 +14,7 @@ connection, pull different types of data, and store force plate data from over 4
 
 ![](images/rpack2.jpg){width="100%"}
 
-## Project 2: SQL Database creation
+## Project 2: SQL Database creation {#sql-database}
 * [**SQL Workflow Code**](https://github.com/nickkatz625/SQL-HawkinsR-Database)
 
 This project showcases the end-to-end data engineering workflow of building, optimizing, and querying a local relational database for sports performance tracking. Using raw force plate data spanning 365 days of testing across more than 400 athletes, this project involved extracting metrics from Countermovement Jumps (CMJ), Squat Jumps (SJ), and Multi-Rebound (MR) tests. 
